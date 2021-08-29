@@ -1,0 +1,8 @@
+.todo {
+    font-size: large;
+    display:flex;
+    justify-content: space-between;
+}
+.buttonPosition {
+    display:inline;
+}
