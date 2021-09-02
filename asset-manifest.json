@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Zavrsni-r/static/css/main.1dd8737c.chunk.css",
+    "main.js": "/Zavrsni-r/static/js/main.c7c732b5.chunk.js",
+    "main.js.map": "/Zavrsni-r/static/js/main.c7c732b5.chunk.js.map",
+    "runtime-main.js": "/Zavrsni-r/static/js/runtime-main.01c16241.js",
+    "runtime-main.js.map": "/Zavrsni-r/static/js/runtime-main.01c16241.js.map",
+    "static/css/2.818011ed.chunk.css": "/Zavrsni-r/static/css/2.818011ed.chunk.css",
+    "static/js/2.a37fb5a9.chunk.js": "/Zavrsni-r/static/js/2.a37fb5a9.chunk.js",
+    "static/js/2.a37fb5a9.chunk.js.map": "/Zavrsni-r/static/js/2.a37fb5a9.chunk.js.map",
+    "static/js/3.bd0cf838.chunk.js": "/Zavrsni-r/static/js/3.bd0cf838.chunk.js",
+    "static/js/3.bd0cf838.chunk.js.map": "/Zavrsni-r/static/js/3.bd0cf838.chunk.js.map",
+    "index.html": "/Zavrsni-r/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/Zavrsni-r/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.1dd8737c.chunk.css.map": "/Zavrsni-r/static/css/main.1dd8737c.chunk.css.map",
+    "static/js/2.a37fb5a9.chunk.js.LICENSE.txt": "/Zavrsni-r/static/js/2.a37fb5a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01c16241.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.a37fb5a9.chunk.js",
+    "static/css/main.1dd8737c.chunk.css",
+    "static/js/main.c7c732b5.chunk.js"
+  ]
+}
