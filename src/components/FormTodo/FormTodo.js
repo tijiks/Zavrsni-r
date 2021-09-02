@@ -15,9 +15,15 @@ export const FormTodo = ({ addTodo }) => {
       <Form onSubmit={handleSubmit}> 
       <Form.Group className="formGroup">
         <Form.Label>Add Todo</Form.Label>
-        <Form.Control className="input"key=" " type="text" value={value} onChange={e => setValue(e.target.value)} placeholder="Add new todo" />
+        <Form.Control 
+          className="input"
+          key=" " 
+          type="text" 
+          value={value} 
+          onChange={e => setValue(e.target.value)} 
+          placeholder="Add new todo" />
       </Form.Group>
-      <Button variant="outline-dark" type="submit">
+      <Button variant="dark" type="submit">
         Submit
       </Button>
     </Form>

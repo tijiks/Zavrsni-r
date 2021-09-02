@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { Card } from 'react-bootstrap';
 import { TodoItem } from "./components/TodoItem/TodoItem";
 import { FormTodo } from "./components/FormTodo/FormTodo";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +11,7 @@ function App() {
       isDone: false
     }
   ]);
-
+  
   const addTodo = text => {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
@@ -37,17 +36,13 @@ function App() {
         <FormTodo addTodo={addTodo} />
         <div>
           {todos.map((todo, index) => (
-            <Card className="cardCss">
-              <Card.Body>
-                <TodoItem
-                key={index}
-                index={index}
-                todo={todo}
-                markTodo={markTodo}
-                removeTodo={removeTodo}
-                />
-              </Card.Body>
-            </Card>
+            <TodoItem
+            key={index}
+            index={index}
+            todo={todo}
+            markTodo={markTodo}
+            removeTodo={removeTodo}
+            /> 
           ))}
         </div>
       </div>

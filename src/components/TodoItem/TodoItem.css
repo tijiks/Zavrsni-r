@@ -6,3 +6,9 @@
 .buttonPosition {
     display:inline;
 }
+.cardCss {
+    width:90%;
+    margin:20px auto;
+    background-color:#F4ED6E !important;
+    border:solid 1px black !important;
+  }
